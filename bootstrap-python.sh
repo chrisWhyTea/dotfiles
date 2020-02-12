@@ -1,5 +1,5 @@
 sh bootstrap.sh
 
-# Install Pipenv and Poetry
+echo "Install poetry and pipenv"
 pip3 install --user poetry pipenv
 
