@@ -10,3 +10,6 @@ ln -s -f $HOME/dotfiles/.gitconfig $HOME/.gitconfig
 
 echo "Symlink ~/dotfiles/.zshrc to ~/.zshrc"
 ln -s -f $HOME/dotfiles/.zshrc $HOME/.zshrc
+
+echo "Symlink ~/dotfiles/tea-sunrise.zsh-theme to ~/.oh-my-zsh/custom/themes/tea-sunrise.zsh-theme"
+ln -s -f $HOME/dotfiles/tea-sunrise.zsh-theme $HOME/.oh-my-zsh/custom/themes/tea-sunrise.zsh-theme
